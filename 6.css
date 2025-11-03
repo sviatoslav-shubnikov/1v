@@ -1,0 +1,24 @@
+body {
+  color: blue;
+  background-color: gray;
+  margin-left: 2cm;
+  margin-right: 2cm;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+h2 {
+  text-align: left;
+  font-style: italic;
+  color: green;
+}
+
+p {
+  text-indent: 1cm;
+  font-size: 24pt;
+  border: 1px solid black;
+}

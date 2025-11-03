@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#bf1160, #cf7cac) no-repeat center center fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card button {
+  background: #333;
+  border: 1px solid #555;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Цвета карточек */
+.green { color: #4caf50; }
+.blue { color: #2196f3; }
+.orange { color: #ff9800; }
+.red { color: #f44336; }
+
+@media (max-width: 600px) {
+  .plans {
+    grid-template-columns: 1fr;
+  }
+}
